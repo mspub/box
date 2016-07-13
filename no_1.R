@@ -58,3 +58,7 @@ summary(iris)
 data(iris)
 iris
 var(iris$Sepal.Length)
+hist(iris$Sepal.Length)
+plot(iris)
+plot(iris$Sepal.Length)
+plot(iris$Sepal.Length,iris$Sepal.Width)
